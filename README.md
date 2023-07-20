@@ -6,10 +6,7 @@
 
 - 🔎 Welcome to my resume/curriculum vitae repository! Here you will find my latest CV/Resume and all information on how to contact me!
 
-- 🌱 I’m currently learning **Python & Java and Exploring Opportunities in Artificial Intelligence and Machine Learning!**
+- 👨‍💻 [My resume/Website](https://github.com/manavvgarg/resume)
 
-- 👨‍💻 [My resume/Website](https://ceev.io/@manavvgarg)
+- 📫 How to reach me through **manav.garg@hotmail.com**
 
-- 📫 How to reach me **garg.manav1108@gmail.com**
-
-- ⚡ Fun fact **I also draw, cook and play games ;) My graphic design page on instagram: [@hino.jpeg](https://instagram.com/hino.jpeg)**
