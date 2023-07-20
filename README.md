@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋 I'm Manav</h1>
-<h2 align="center">Dreamer | Designer | Thinker</h2>
+<h2 align="center">Developer | Dreamer | Designer</h2>
 <h3 align="center">A passionate Javascript/Python developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manavvgarg" alt="manavvgarg" /> </p>
