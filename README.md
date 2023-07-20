@@ -6,7 +6,7 @@
 
 - 🔎 Welcome to my resume/curriculum vitae repository! Here you will find my latest CV/Resume and all information on how to contact me!
 
-- 👨‍💻 [My resume/Website](https://github.com/ManavvGarg/Resume/blob/main/Resume_Manav_Garg.pdf)
+- 👨‍💻 [My Resume](https://github.com/ManavvGarg/Resume/blob/main/Resume_Manav_Garg.pdf)
 
 - 📫 How to reach me through **manav.garg@hotmail.com**
 
