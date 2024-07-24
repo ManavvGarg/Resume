@@ -1,0 +1,256 @@
+\documentclass[letter paper, 15pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+
+\input{glyphtounicode}
+
+% -------------------- FONT OPTIONS --------------------
+% sans-serif
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% serif
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.50in} % Default was -.5in
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-1pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+% \begin{flushright}
+%    \vspace{-10pt}
+%   \color{gray}
+%   \item
+%   Last Updated on \today{}
+% \end{flushright}
+
+
+\begin{center}
+    \textbf{\Huge \scshape \textcolor{blue}{Manav Garg}} \\ \vspace{3pt}
+    \small \scshape \textcolor{gray}{Bachelors of Technology, Computer Science Engineering} \\ \vspace{1pt}
+    \small 
+    \faIcon{phone}
+    \href{tel:+919818094442}{+91 9818094442} $  $
+    \faIcon{github}
+    \href{https://github.com/manavvgarg}{@Manavvgarg} $  $
+    \faIcon{linkedin}
+    \href{https://linkedin.com/in/manavvgarg}{@Manavvgarg} $  $
+    \faIcon{envelope}
+    \href{mailto:manav.garg@hotmail.com}
+    {manav.garg@hotmail.com}
+\end{center}
+
+% -------------------- Profile --------------------
+\section{\textcolor{blue}{Profile}}
+{Manav is a 20-year-old aspiring software developer and machine learning engineer. He is proficient in a variety of programming languages and technologies. He is also familiar with NLP, Computer Vision, Data mining, and big data analytics. He is a highly motivated and results-oriented individual who is always willing to help others.}
+  
+% -------------------- EDUCATION --------------------
+\section{\textcolor{blue}{Education}}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Vellore Institute Of Technology, Chennai}{June 2025}
+      {B.Tech. Computer Science Engineering}{Current CGPA: 8.43/10.0} \\ \vspace{8pt}
+      {Specializing in: Artificial Intelligence and Machine Learning}
+
+    \vspace{-8pt}
+
+    \subsection{\underline{Coursework}}
+      \textbf{Courses:} Object-Oriented Programming, Data Structures \& Algorithms, Machine Learning, Artificial Intelligence, XAI,  Linear Algebra, Calculus, Physics, Probability \& Statistics
+
+  \resumeSubHeadingListEnd
+
+% -------------------- SKILLS --------------------
+\section{\textcolor{blue}{Skills}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    
+     \textbf{\underline{Languages}}{: C/C++, Python, Java, JavaScript/TypeScript, HTML5/CSS3, Dart, SQL, Bash, LaTeX} \\ \vspace{5pt}
+     
+     \textbf{\underline{Tools}}{: Git/GitHub, Docker, Unix, PyCharm, Visual Studio Code, Vim, Adobe Photoshop/Illustrator, MongoDB, NoSQL Platforms, Vercel, Figma}
+     
+    \textbf{\underline{Frameworks}}{: ReactJS/NextJS/Express, Django/Flask/FastAPI, Node.js, WordPress, Material-UI}  \\ \vspace{5pt}
+     
+    \textbf{\underline{Libraries}}{: Pandas, NumPy, Matplotlib, PyTorch, TensorFlow, OpenCV}  \\
+     
+    }}
+ \end{itemize}
+
+% -------------------- PROJECTS --------------------
+\section{\textcolor{blue}{Projects}}
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+        {\textbf{FontSync} $|$ \footnotesize\emph{Python}}{June. 2024}
+        \resumeItemListStart
+            \resumeItem{Developed a Desktop Application using python to Transfer font files from your old PC to your new one effortlessly.}
+            \resumeItem{\href{https://github.com/ManavvGarg/FontSync}{\underline{\faIcon{github} Github}}}
+        \resumeItemListEnd
+        
+        \resumeProjectHeading
+        {\textbf{Satellite Image Analysis using Vision Transformers} $|$ \footnotesize\emph{Python, PyTorch, Vision Transformers}}{April-May. 2024}
+        \resumeItemListStart
+            \resumeItem{Achieving SOTA in land use classification. This project contributes to advancing satellite image analysis and enhances tools for environmental monitoring, urban planning, and land management. This uses evaluation technique based on metrics like classification accuracy that proves the efficacy of the suggested approach with reference to existent methods. This project also compares two Vision Transformer models, the base ViT and the CCT (Compact Convolutional Transformer) model.}
+            \resumeItem{\href{https://www.linkedin.com/posts/manavvgarg_viteurosat-activity-7197334551373729792-Trxo?utm_source=share&utm_medium=member_desktop}{\underline{\faIcon{linkedin} LinkedIn}} · \href{https://github.com/manavvgarg/STIA_ViT}{\underline{\faIcon{github} Github}}}
+        \resumeItemListEnd
+
+    
+        \resumeProjectHeading
+        {\textbf{KeyKeg - Password Wizard} $|$ \footnotesize\emph{Python, Scikit-Learn, Machine Learning, NextJS, Web App}}{April. 2024}
+        \resumeItemListStart
+            \resumeItem{Developed a Secure, Strong, and Smart, ultimate password management app that securely stores your passwords, generates strong and unique passwords, and utilizes machine learning approach (Random Forest Algorithm) to analyze and classify password strength.}
+            \resumeItem{\href{https://www.linkedin.com/posts/manavvgarg_keykeg-passwordwizard-ai-activity-7183745702341087232-TmX4?utm_source=share&utm_medium=member_desktop}{\underline{\faIcon{linkedin} LinkedIn}} · \href{https://github.com/manavvgarg/keykeg}{\underline{\faIcon{github} Github}}}
+        \resumeItemListEnd
+
+        \resumeProjectHeading
+        {\textbf{Fixed Point Adherence – Wipro} $|$ \footnotesize\emph{Python, TensorFlow, Machine Learning, Flutter, Android Dev}}{July-Sept. 2023}
+        \resumeItemListStart
+            \resumeItem{Developed an App for Wipro with Machine Vision capabilities to distinguish items on a pathway so that they can be removed and status can be logged.}
+            \resumeItem{\href{https://www.linkedin.com/posts/manavvgarg_internship-completion-letter-activity-7163440414207791104-_yzT?utm_source=share&utm_medium=member_desktop}{\underline{\faIcon{linkedin} LinkedIn}} · \href{https://github.com/manavvgarg/fpa-wipro}{\underline{\faIcon{github} Github}}}
+        \resumeItemListEnd
+        
+        \resumeProjectHeading
+        {\textbf{SentiSYS: CLI Sentiment Analysis} $|$ \footnotesize\emph{Python, TensorFlow, Machine Learning, Git, Unix Shell, VS Code}}{July. 2023}
+        \resumeItemListStart
+            \resumeItem{SentiSYS is a real-time sentiment analysis tool that utilizes EmoRoBERTa, a pre-trained transformer-based model, to perform sentiment analysis on both text and speech inputs.}
+            \resumeItem{\href{https://github.com/manavvgarg/sentisys}{\underline{\faIcon{github} Github}}}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+        {\textbf{Rekol} $|$ \footnotesize\emph{Express, Embedded JS, MongoDB, CSS3, Git, Unix Shell, VS Code, Whatsapp API}}{May. 2021}
+        \resumeItemListStart
+            \resumeItem{Developed a TO-DO dashboard and Integrated WhatsApp functionality to use the platform from WhatsApp}
+            \resumeItem{\href{https://github.com/manavvgarg/rekol}{\underline{\faIcon{github} Github}}}
+          \resumeItemListEnd
+    
+        \resumeProjectHeading
+        {\textbf{NSCHR, A Web HMIS Portal} $|$ \footnotesize\emph{Express, Embedded JS, MongoDB, CSS3, Git, Unix Shell, VS Code}}{Sept. 2021}
+        \resumeItemListStart
+            \resumeItem{A Web app built using various technologies to provide fast, accurate information about a patient right in front of Medical Practitioner in just a matter of few clicks!}
+            \resumeItem{\href{https://github.com/manavvgarg/nschr}{\underline{\faIcon{github} Github}}}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+% -------------------- EXPERIENCE --------------------
+\section{\textcolor{blue}{Experience}}
+  \resumeSubHeadingListStart
+
+              \resumeProjectHeading
+          {\textbf{\underline{Intel Corporation}}}{May. 2024 -- Aug. 2024} \\ \vspace{9pt}
+          {\small{\emph{Intel Unnati Industrial Trainee}}} \\
+          {\footnotesize{Focusing on an intriguing problem statement: "Business Contract Validation" which involves 
+            \\ - Classifying content within the Contract clauses 
+            \\ - Determining deviations from Templates and highlight them.
+            \\ - Provide accurate metrics for analysis
+            }}
+
+            \resumeProjectHeading
+          {\textbf{\underline{Tisac pvt. ltd.}}}{May. 2024 -- June. 2024} \\ \vspace{9pt}
+          {\small{\emph{Intern, Full Stack Developer \& ML Engineer}}} \\
+          {\footnotesize{Involved in developing a Full Stack Application for Training LLMs, FineTune Models, Data Analytics and more on self hosted VMs using docker technology to create isolated jupyter environments for every training job which involves the following tasks
+            \\- Configured and administered cron jobs for streamlined task automation.
+            \\- Executed custom domain configurations for all API endpoints
+            \\- Established and managed reverse proxy setups to improve security and performance
+            \\- Deployed Jupyter Docker Lab environments for enterprise-grade data science applications
+            \\- Incorporated Firebase Authentication for secure and reliable user authentication
+            \\- Developed an advanced Docker API service for automating the creation of Jupyter Docker containers for enterprise model training
+            \\- Designed custom scripts to automatically assign secure TLS/SSL HTTPS subdomains to each container
+            \\- Ensured secure and efficient data storage solutions using MongoDB
+        }}
+
+          \resumeProjectHeading
+          {\textbf{\underline{StudioX – The Coca Cola Company x Hogarth India – A WPP Company}}}{Aug. 2023 -- Oct. 2023} \\ \vspace{9pt}
+          {\small{\emph{Intern, Full Stack Developer}}} \\
+          {\footnotesize{Involved in developing a Full Stack Application for ICC World Cup 2023 Thums Up campaign to successfully log live votes, and Code Redemption as well live Polling}}
+
+          \resumeProjectHeading
+          {\textbf{\underline{Wipro}}}{Aug. 2023 -- Nov. 2023} \\ \vspace{9pt}
+          {\small{\emph{Intern, Android Developer \& Machine Learning}}} \\
+          {\footnotesize{Contributed to the development of an android application utilizing machine learning for monitoring objects within the pathway obstructing the passage for their rovers and machines to move on. Part of the Wipro Infrastructure Engineering Department.}}
+          
+    \resumeSubHeadingListEnd
+
+\end{document}
