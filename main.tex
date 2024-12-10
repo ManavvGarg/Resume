@@ -7,7 +7,10 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,
+    pdftitle={Manav Garg's CV},
+    pdfauthor={Manav Garg},
+    pdfcreator={Manav Garg}]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -15,7 +18,14 @@
 \usepackage{fontawesome5}
 \usepackage[T1]{fontenc}
 
-\input{glyphtounicode}
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
 
 % -------------------- FONT OPTIONS --------------------
 % sans-serif
@@ -124,7 +134,7 @@
 
 % -------------------- Profile --------------------
 \section{\textcolor{blue}{Profile}}
-{Manav is a 20-year-old aspiring software developer and machine learning engineer. He is proficient in a variety of programming languages and technologies. He is also familiar with NLP, Computer Vision, Data mining, and big data analytics. He is a highly motivated and results-oriented individual who is always willing to help others.}
+{Manav is a 21-year-old aspiring software developer and machine learning engineer. He is proficient in a variety of programming languages and technologies. He is also familiar with NLP, Computer Vision, Data mining, and big data analytics. He is a highly motivated and results-oriented individual who is always willing to help others.}
   
 % -------------------- EDUCATION --------------------
 \section{\textcolor{blue}{Education}}
@@ -153,7 +163,9 @@
      
     \textbf{\underline{Frameworks}}{: ReactJS/NextJS/Express, Django/Flask/FastAPI, Node.js, WordPress, Material-UI}  \\ \vspace{5pt}
      
-    \textbf{\underline{Libraries}}{: Pandas, NumPy, Matplotlib, PyTorch, TensorFlow, OpenCV}  \\
+    \textbf{\underline{Libraries}}{: Pandas, NumPy, Matplotlib, PyTorch, TensorFlow, OpenCV}  \\ \vspace{5pt}
+
+    \textbf{\underline{Area of Expertise}}{: ML-OPS, DevOPS, Full Stack Engineering, Data Analytics}  \\
      
     }}
  \end{itemize}
@@ -161,7 +173,13 @@
 % -------------------- PROJECTS --------------------
 \section{\textcolor{blue}{Projects}}
     \resumeSubHeadingListStart
-
+        \resumeProjectHeading
+        {\textbf{AutoDoc} $|$ \footnotesize\emph{Python, Groq}}{October. 2024}
+        \resumeItemListStart
+            \resumeItem{AutoDoc is an open-source Application made with Python that automates the document creation process by extracting information from code and generating documentation in markdown format. Whether its to update API docs or generate internal documentation, AutoDoc simplifies the process.}
+            \resumeItem{\href{https://www.linkedin.com/posts/manavvgarg_github-manavvgargautodoc-auto-generate-activity-7248274683400216576-J7LU?utm_source=share&utm_medium=member_desktop}{\underline{\faIcon{linkedin} LinkedIn}} · \href{https://github.com/manavvgarg/autodoc}{\underline{\faIcon{github} Github}}}
+        \resumeItemListEnd
+        
         \resumeProjectHeading
         {\textbf{FontSync} $|$ \footnotesize\emph{Python}}{June. 2024}
         \resumeItemListStart
